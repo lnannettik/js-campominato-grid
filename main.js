@@ -4,7 +4,7 @@ console.log(`JS OK`);
 
 // REF
 
-const playButton = document.getElementById('play');
+const playBtn = document.getElementById('play');
 const levels = document.getElementById('levels');
 const wrapGrid = document.querySelector('.wrap-grid');
 
