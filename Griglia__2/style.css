@@ -1,0 +1,57 @@
+/* GENERAL RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    background-color: rgb(212, 163, 115);
+}
+
+.toolbar {
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 3rem;
+} 
+
+.wrap-grid {
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap:wrap;
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    border: 2px solid rgb(34, 34, 34);
+
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(34, 34, 34);
+    cursor: pointer;    
+}
+
+.square span {
+    display: none;
+}
+
+.square.active span {
+    display: block;
+}
+
+.square-even.active {
+    background-color: rgba(127, 209, 127, 0.666);
+}
+.square-odd.active {
+    background-color: rgba(223, 96, 96, 0.666);
+}
+
